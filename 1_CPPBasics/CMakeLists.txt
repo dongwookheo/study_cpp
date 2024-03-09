@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(
-        1_CPPBasics
+        modules
         VERSION 1.0.0
         LANGUAGES CXX)
 
@@ -11,8 +11,9 @@ set(CMAKE_VERBOSE_MAKEFILE ON)  # 빌드할 때, 빌드 프로세스에 대한 �
 
 #find_package()
 
-add_subdirectory(1_CPPBasics)  # 다른 디렉토리에 있는 하위 CMakeLists를 현 프로젝트에 포함
+add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 현 프로젝트에 포함
 
-# add_executable()
+add_executable(1_01_program_structure examples/1_01_program_structure.cpp)
+add_executable(1_02_goot_comments examples/1_02_goot_comments.cpp)
 
 target_link_libraries(CPPBasics)

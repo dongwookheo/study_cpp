@@ -14,6 +14,6 @@ set(CMAKE_VERBOSE_MAKEFILE ON)  # 빌드할 때, 빌드 프로세스에 대한 �
 add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 현 프로젝트에 포함
 
 add_executable(1_01_program_structure examples/1_01_program_structure.cpp)
-add_executable(1_02_goot_comments examples/1_02_goot_comments.cpp)
+add_executable(1_02_goot_comments examples/1_02_good_comments.cpp)
 
 target_link_libraries(CPPBasics)

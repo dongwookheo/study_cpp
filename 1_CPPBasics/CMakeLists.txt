@@ -27,3 +27,7 @@ add_executable(1_11_header examples/1_11_header.cpp)
 target_link_libraries(1_11_header PRIVATE
     CPPBasics
 )
+add_executable(1_12_header_guard examples/1_12_header_guard.cpp)
+target_link_libraries(1_12_header_guard PRIVATE
+    CPPBasics
+)

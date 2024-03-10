@@ -9,9 +9,11 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(HEADER_FILES
+    include/test.h
 )
 
 set(SOURCE_FILES
+    src/test.cpp
 )
 
 

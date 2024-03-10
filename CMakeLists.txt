@@ -8,7 +8,5 @@ project(Study_CPP
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(
-    1_CPPBasics
-    2_CPPDataType
-)
+add_subdirectory(1_CPPBasics)
+add_subdirectory(2_CPPDataType)

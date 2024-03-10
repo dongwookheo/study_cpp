@@ -6,7 +6,7 @@
  * #define HEADER_H
  * #endif
  *
-* 두 가지 표현을 같이 사용하여, 양측의 장점을 모두 가져오려는 방식으로 작성하는 경우도 있음 
+ * 두 가지 표현을 같이 사용하여, 양측의 장점을 모두 가져오려는 방식으로 작성하는 경우도 있음
  */
 #include <cstdint>
 #include <iostream>

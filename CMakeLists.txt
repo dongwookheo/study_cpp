@@ -10,4 +10,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(
     1_CPPBasics
+    2_CPPDataType
 )

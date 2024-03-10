@@ -20,5 +20,6 @@ add_executable(1_04_iostream examples/1_04_iostream.cpp)
 add_executable(1_05_function examples/1_05_function.cpp)
 add_executable(1_06_naming examples/1_06_naming.cpp)
 add_executable(1_07_local_scope examples/1_07_local_scope.cpp)
+add_executable(1_08_operators examples/1_08_operators.cpp)
 
 target_link_libraries(CPPBasics)

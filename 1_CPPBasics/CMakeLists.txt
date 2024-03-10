@@ -16,5 +16,6 @@ add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 
 add_executable(1_01_program_structure examples/1_01_program_structure.cpp)
 add_executable(1_02_good_comments examples/1_02_good_comments.cpp)
 add_executable(1_03_variables examples/1_03_variables.cpp)
+add_executable(1_04_iostream examples/1_04_iostream.cpp)
 
 target_link_libraries(CPPBasics)

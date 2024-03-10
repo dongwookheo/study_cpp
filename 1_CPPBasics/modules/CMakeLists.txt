@@ -10,10 +10,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(HEADER_FILES
     include/test.hpp
+    include/add.h
 )
 
 set(SOURCE_FILES
     src/test.cpp
+    src/add.cpp
 )
 
 
@@ -24,7 +26,7 @@ add_library(${PROJECT_NAME}
 
 # find_package()
 
-target_include_directories(${PROJECT_NAME} PRIVATE
+target_include_directories(${PROJECT_NAME} PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 

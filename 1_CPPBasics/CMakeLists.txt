@@ -32,3 +32,4 @@ target_link_libraries(1_12_header_guard PRIVATE
     CPPBasics
 )
 add_executable(1_13_namespace examples/1_13_namespace.cpp)
+add_executable(1_14_preprocessor examples/1_14_preprocessor.cpp)

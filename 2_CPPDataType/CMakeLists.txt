@@ -15,3 +15,4 @@ add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 
 
 add_executable(2_01_fundamental_data_types examples/2_01_fundamental_data_types.cpp)
 add_executable(2_02_integers examples/2_02_integers.cpp)
+add_executable(2_03_fixed_width_integers examples/2_03_fixed_width_integers.cpp)

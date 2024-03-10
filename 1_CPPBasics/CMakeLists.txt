@@ -21,5 +21,6 @@ add_executable(1_05_function examples/1_05_function.cpp)
 add_executable(1_06_naming examples/1_06_naming.cpp)
 add_executable(1_07_local_scope examples/1_07_local_scope.cpp)
 add_executable(1_08_operators examples/1_08_operators.cpp)
+add_executable(1_09_formatting examples/1_09_formatting.cpp)
 
 target_link_libraries(CPPBasics)

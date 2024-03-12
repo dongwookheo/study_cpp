@@ -17,3 +17,4 @@ add_executable(2_01_fundamental_data_types examples/2_01_fundamental_data_types.
 add_executable(2_02_integers examples/2_02_integers.cpp)
 add_executable(2_03_fixed_width_integers examples/2_03_fixed_width_integers.cpp)
 add_executable(2_04_void_type examples/2_04_void_type.cpp)
+add_executable(2_05_floating_point_numbers examples/2_05_floating_point_numbers.cpp)

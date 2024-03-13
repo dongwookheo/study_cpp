@@ -21,3 +21,7 @@ add_executable(2_05_floating_point_numbers examples/2_05_floating_point_numbers.
 add_executable(2_06_boolean examples/2_06_boolean.cpp)
 add_executable(2_07_char examples/2_07_char.cpp)
 add_executable(2_08_literal examples/2_08_literal.cpp)
+add_executable(2_09_symbolic_constants examples/2_09_symbolic_constants.cpp)
+target_link_libraries(2_09_symbolic_constants PRIVATE
+        CPPDataType
+)

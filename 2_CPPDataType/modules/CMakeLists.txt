@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(HEADER_FILES
     include/test.h
+    include/MY_CONSTANTS.h
 )
 
 set(SOURCE_FILES

@@ -15,3 +15,4 @@ add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 
 
 add_executable(3_01_operator_precedence_associativity examples/3_01_operator_precedence_associativity.cpp)
 add_executable(3_02_arithmetic_operators examples/3_02_arithmetic_operators.cpp)
+add_executable(3_03_increment_decrement_operators examples/3_03_increment_decrement_operators.cpp)

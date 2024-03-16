@@ -12,3 +12,5 @@ set(CMAKE_VERBOSE_MAKEFILE ON)  # 빌드할 때, 빌드 프로세스에 대한 �
 #find_package()
 
 add_subdirectory(modules)  # 다른 디렉토리에 있는 하위 CMakeLists를 현 프로젝트에 포함
+
+add_executable(3_01_operator_precedence_associativity examples/3_01_operator_precedence_associativity.cpp)

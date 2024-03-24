@@ -20,3 +20,4 @@ add_executable(3_04_sizeof_comma_conditional_operators examples/3_04_sizeof_comm
 add_executable(3_05_relational_operators examples/3_05_relational_operators.cpp)
 add_executable(3_06_logical_operators examples/3_06_logical_operators.cpp)
 add_executable(3_07_binary_numbers examples/3_07_binary_numbers.cpp)
+add_executable(3_08_bitwise_operators examples/3_08_bitwise_operators.cpp)
